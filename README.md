@@ -41,14 +41,19 @@ strings, converts them to upper case and then appends them together.
 - Produce a function "preprocess" that takes a string and outputs a
   string, implementing each of the syntax types above
 
+- Write preprocess-file which takes a path, rather than a string
+
 - Give preprocess an optional keyword argument which changes the
   special character "~" to something else.
 
-- Produce some helper functions, such as "include" which includes
-  and preprocesses another file by either a relative or absolute path
+- Produce a helper functions, "include" which includes and
+  preprocesses another file by either a relative or absolute path
   
-- Produce a command line program "gribble" which can do the above from
-  the command line, using standard input and output.
+- Produce a command line program "gribble" which runs the preprocess
+  function from the command-line, using standard input and output
+  
+- Update the command line program to take an optional argument
+  changing the special character
 
 ## Future Development Ideas
 
